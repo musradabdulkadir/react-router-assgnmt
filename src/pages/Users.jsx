@@ -7,12 +7,15 @@ function Users() {
       <h1>Users</h1>
 
       {users.map((user) => (
-        <div key={user.id}>
+        <div className="user-card" key={user.id}>
           <Link to={`/users/${user.id}`}>
             {user.name}
           </Link>
         </div>
       ))}
+
+      <hr />
+      <Link to="/">← Back to Home</Link>
     </div>
   );
 }

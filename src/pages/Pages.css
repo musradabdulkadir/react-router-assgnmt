@@ -1,0 +1,72 @@
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ddd;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+body{
+    background-color: rgb(159, 238, 238);
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+
+.container h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.container p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.container a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.user-card {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  background: #eef5ff;
+  transform: translateY(-2px);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  border: none;
+  background: #ff0000;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f05f5f;
+}

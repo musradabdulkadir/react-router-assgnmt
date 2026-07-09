@@ -2,16 +2,16 @@ nav {
   display: flex;
   gap: 20px;
   padding: 15px;
-  background: #222;
+  background: #441d1d;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 nav a.active {
-  color: orange;
+  color: #9FEEEE;
   font-weight: bold;
 }
